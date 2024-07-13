@@ -54,6 +54,6 @@ I'm **Katheroine** and this is **my code**.
 * [PHP Lab](https://github.com/katheroine/php.lab) - comprehensive set of **PHP** code snippets, usage examples and standards implementation demos
 * [Redis Lab](https://github.com/katheroine/redis.lab) - **Redis** basic knowledge & examples
 * [RabbitMQ Lab](https://github.com/katheroine/rabbitmq.lab) - **Rabbit MQ** basic knowledge & examples
+* [Docker Lab](https://github.com/katheroine/docker.lab) - **Docker** basic knowledge & examples
+* [AI Cone](https://github.com/katheroine/ai.cone) - some labs related to various **AI** topics
 * [REST API Demo on Symfony](https://github.com/katheroine/rest-api-demo-symfony) - basic example of the REST API based on **Symfony** web framework
-* [Docker](https://github.com/katheroine/docker.lab) - **Docker** basic knowledge & examples
-* [AI Cone](https://github.com/katheroine/ai.cone) - some labs related to **AI** topics
