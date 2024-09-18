@@ -18,8 +18,11 @@ I'm **Katheroine** and this is **my code**.
 [![PHP](https://img.shields.io/badge/PHP-053d53?style=for-the-badge&logoColor=white&logo=php)](https://github.com/katheroine/languagium/tree/main/php)
 [![Ruby](https://img.shields.io/badge/Ruby-053d53?style=for-the-badge&logoColor=white&logo=ruby)](https://github.com/katheroine/languagium/tree/main/ruby)
 [![Python](https://img.shields.io/badge/Python-053d53?style=for-the-badge&logoColor=white&logo=python)](https://github.com/katheroine/languagium/tree/main/python)
-[![MySQL](https://img.shields.io/badge/MySQL-055353?style=for-the-badge&logoColor=white&logo=mysql)](https://github.com/katheroine)
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-055353?style=for-the-badge&logoColor=white&logo=postgresql)](https://github.com/katheroine)
+[![SQL](https://img.shields.io/badge/SQL-053d45?style=for-the-badge&logoColor=white&logo=sql)](https://github.com/katheroine/sql.lab)
+[![SQLite](https://img.shields.io/badge/SQLite-055353?style=for-the-badge&logoColor=white&logo=sqlite)](https://github.com/katheroine/sql.lab/tree/main/databases/sqlite)
+[![MySQL](https://img.shields.io/badge/MySQL-055353?style=for-the-badge&logoColor=white&logo=mysql)](https://github.com/katheroine/sql.lab/tree/main/databases/mysql)
+[![Mariadb](https://img.shields.io/badge/MariaDB-055353?style=for-the-badge&logoColor=white&logo=mariadb)](https://github.com/katheroine/sql.lab/tree/main/databases/mariadb)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-055353?style=for-the-badge&logoColor=white&logo=postgresql)](https://github.com/katheroine/sql.lab/tree/main/databases/postgresql)
 [![Redis](https://img.shields.io/badge/Redis-055353?style=for-the-badge&logoColor=white&logo=redis)](https://github.com/katheroine/redis.lab)
 [![RabbitMQ](https://img.shields.io/badge/RabbitMQ-055353?style=for-the-badge&logoColor=white&logo=rabbitmq)](https://github.com/katheroine/rabbitmq.lab)
 [![Linux](https://img.shields.io/badge/Linux-22461c?style=for-the-badge&logoColor=white&logo=linux)](https://github.com/katheroine)
@@ -52,6 +55,7 @@ I'm **Katheroine** and this is **my code**.
 * [Languagium](https://github.com/katheroine/languagium/) - the catalogue of the code snippets pictured the various programming problems in nine  **programming languages**
 * [Patternalium](https://github.com/katheroine/patternalium/) - the examples of the **design patterns** implementation examples
 * [PHP Lab](https://github.com/katheroine/php.lab) - comprehensive set of **PHP** code snippets, usage examples and standards implementation demos
+* [SQL Lab](https://github.com/katheroine/sql.lab) - **SQL** language and databases basic knowledge & examples
 * [Redis Lab](https://github.com/katheroine/redis.lab) - **Redis** basic knowledge & examples
 * [RabbitMQ Lab](https://github.com/katheroine/rabbitmq.lab) - **Rabbit MQ** basic knowledge & examples
 * [Docker Lab](https://github.com/katheroine/docker.lab) - **Docker** basic knowledge & examples
