@@ -23,6 +23,7 @@ I'm **Katheroine** and this is **my code**.
 [![MySQL](https://img.shields.io/badge/MySQL-055353?style=for-the-badge&logoColor=white&logo=mysql)](https://github.com/katheroine/sql.lab/tree/main/databases/mysql)
 [![Mariadb](https://img.shields.io/badge/MariaDB-055353?style=for-the-badge&logoColor=white&logo=mariadb)](https://github.com/katheroine/sql.lab/tree/main/databases/mariadb)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-055353?style=for-the-badge&logoColor=white&logo=postgresql)](https://github.com/katheroine/sql.lab/tree/main/databases/postgresql)
+[![MongoDB](https://img.shields.io/badge/MongoDB-055353?style=for-the-badge&logoColor=white&logo=mongodb)](https://github.com/katheroine/mongodb.lab)
 [![Redis](https://img.shields.io/badge/Redis-055353?style=for-the-badge&logoColor=white&logo=redis)](https://github.com/katheroine/redis.lab)
 [![RabbitMQ](https://img.shields.io/badge/RabbitMQ-055353?style=for-the-badge&logoColor=white&logo=rabbitmq)](https://github.com/katheroine/rabbitmq.lab)
 [![Linux](https://img.shields.io/badge/Linux-22461c?style=for-the-badge&logoColor=white&logo=linux)](https://github.com/katheroine)
@@ -56,6 +57,7 @@ I'm **Katheroine** and this is **my code**.
 * [Patternalium](https://github.com/katheroine/patternalium/) - the examples of the **design patterns** implementation examples
 * [PHP Lab](https://github.com/katheroine/php.lab) - comprehensive set of **PHP** code snippets, usage examples and standards implementation demos
 * [SQL Lab](https://github.com/katheroine/sql.lab) - **SQL** language and databases basic knowledge & examples
+* [MongoDB Lab](https://github.com/katheroine/mongodb.lab) - **MongoDB** basic knowledge & examples
 * [Redis Lab](https://github.com/katheroine/redis.lab) - **Redis** basic knowledge & examples
 * [RabbitMQ Lab](https://github.com/katheroine/rabbitmq.lab) - **Rabbit MQ** basic knowledge & examples
 * [Docker Lab](https://github.com/katheroine/docker.lab) - **Docker** basic knowledge & examples
