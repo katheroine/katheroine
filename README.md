@@ -2,8 +2,9 @@
 
 I'm **Katheroine** and this is **my code**.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logoColor=white&logo=linkedin)](http://linkedin.com/in/katarzyna-krasińska)
-[![Mastodon](https://img.shields.io/badge/Mastodon-indigo?style=for-the-badge&logoColor=white&logo=mastodon)](https://mastodon.social/@katheroine)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logoColor=white&logo=linkedin)](http://linkedin.com/in/katarzyna-krasińska)
+[![Bluesky](https://img.shields.io/badge/Bluesky-0085FF?style=for-the-badge&logoColor=white&logo=bluesky)](https://katheroine.bsky.social)
+[![Mastodon](https://img.shields.io/badge/Mastodon-563ACC?style=for-the-badge&logoColor=white&logo=mastodon)](https://mastodon.social/@katheroine)
 <!--[![GitHub](https://img.shields.io/badge/GitHub-black?style=for-the-badge&logoColor=white&logo=github)](https://github.com/katheroine)-->
 
 ## Skillset
@@ -26,6 +27,7 @@ I'm **Katheroine** and this is **my code**.
 [![MongoDB](https://img.shields.io/badge/MongoDB-055353?style=for-the-badge&logoColor=white&logo=mongodb)](https://github.com/katheroine/mongodb.lab)
 [![Redis](https://img.shields.io/badge/Redis-055353?style=for-the-badge&logoColor=white&logo=redis)](https://github.com/katheroine/redis.lab)
 [![RabbitMQ](https://img.shields.io/badge/RabbitMQ-055353?style=for-the-badge&logoColor=white&logo=rabbitmq)](https://github.com/katheroine/rabbitmq.lab)
+[![Doctrine](https://img.shields.io/badge/Doctrine-144D38?style=for-the-badge&logoColor=white&logo=doctrine)](https://github.com/katheroine/doctrine.lab)
 [![Linux](https://img.shields.io/badge/Linux-22461c?style=for-the-badge&logoColor=white&logo=linux)](https://github.com/katheroine)
 [![Vagrant](https://img.shields.io/badge/Vagrant-22461c?style=for-the-badge&logoColor=white&logo=vagrant)](https://github.com/katheroine)
 [![Docker](https://img.shields.io/badge/Docker-22461c?style=for-the-badge&logoColor=white&logo=docker)](https://github.com/katheroine/docker.lab)
@@ -60,6 +62,7 @@ I'm **Katheroine** and this is **my code**.
 * [MongoDB Lab](https://github.com/katheroine/mongodb.lab) - **MongoDB** basic knowledge & examples
 * [Redis Lab](https://github.com/katheroine/redis.lab) - **Redis** basic knowledge & examples
 * [RabbitMQ Lab](https://github.com/katheroine/rabbitmq.lab) - **Rabbit MQ** basic knowledge & examples
+* [Doctrine Lab](https://github.com/katheroine/doctrine.lab) - **Doctrine ORM** basic functionality examples
 * [Docker Lab](https://github.com/katheroine/docker.lab) - **Docker** basic knowledge & examples
 * [AI Cone](https://github.com/katheroine/ai.cone) - some labs related to various **AI** topics
 * [REST API Demo on Symfony](https://github.com/katheroine/rest-api-demo-symfony) - basic example of the REST API based on **Symfony** web framework
