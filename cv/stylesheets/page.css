@@ -45,10 +45,13 @@ body
    text-decoration: none;
 }
 
+#header a:hover
+{
+    text-decoration: underline;
+}
+
 #title
 {
-    /* overflow: auto; */
-    /* padding: 9.958mm 12.450mm; */
     padding-top: 9.958mm;
     font-family: 'URW Gothic';
 }
@@ -74,8 +77,9 @@ body
     width: 80%;
     display: flex;
     flex-direction: row;
-    column-gap: 8px;
+    column-gap: 3mm;
     flex-wrap: wrap;
+    margin-top: 1mm;
     font-size: 9.5pt;
 }
 
@@ -83,22 +87,15 @@ body
 {
     display: flex;
     flex-direction: row;
-    column-gap: 2px;
+    column-gap: 1mm;
     align-items: center;
+    margin: 1.8mm 0;
 }
 
 .trigger::before
 {
-    width: 20pt;
-    height: 20pt;
-    background-size: 20pt;
     background-repeat: no-repeat;
     content: "";
-}
-
-#linkedin::before
-{
-    background-image: url(../images/icons/linkedin_logo.svg);
 }
 
 #linkedin
@@ -106,9 +103,12 @@ body
     order: 1;
 }
 
-#github::before
+#linkedin::before
 {
-    background-image: url(../images/icons/github_logo.svg);
+    background-image: url(../images/icons/linkedin_logo.svg);
+    width: 5.292mm;
+    height: 5.292mm;
+    background-size: 5.292mm;
 }
 
 #github
@@ -116,9 +116,12 @@ body
     order: 3;
 }
 
-#email::before
+#github::before
 {
-    background-image: url(../images/icons/monkey_envelope.svg);
+    background-image: url(../images/icons/github_logo.svg);
+    width: 5.292mm;
+    height: 5.292mm;
+    background-size: 5.292mm;
 }
 
 #email
@@ -126,9 +129,12 @@ body
     order: 4;
 }
 
-#phone::before
+#email::before
 {
-    background-image: url(../images/icons/receiver.svg);
+    background-image: url(../images/icons/monkey_envelope.svg);
+    width: 5.821mm;
+    height: 4.366mm;
+    background-size: 5.821mm;
 }
 
 #phone
@@ -136,7 +142,10 @@ body
     order: 2;
 }
 
-#photo_canva
+#phone::before
 {
-
+    background-image: url(../images/icons/receiver.svg);
+    width: 5.292mm;
+    height: 5.271mm;
+    background-size: 5.292mm;
 }
