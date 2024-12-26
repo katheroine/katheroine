@@ -1,0 +1,142 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+body
+{
+    background: #999999;
+    margin: 0 auto;
+    font-family: 'Sans';
+}
+
+.page
+{
+    background: white;
+    display: block;
+    margin: 0 auto;
+    width: 21cm;
+    height: 29.7cm;
+}
+
+#avers
+{
+    background-image: url('../images/avers.background.png');
+}
+
+#revers
+{
+    background-image: url('../images/revers.background.png');
+}
+
+#header
+{
+    height: 50.535mm;
+    padding: 0 12.450mm;
+    background-image: url('../images/avers.background.png');
+    background-color: #153d3f;
+}
+
+#header,
+#header a
+{
+   color: #eeeeee;
+   text-decoration: none;
+}
+
+#title
+{
+    /* overflow: auto; */
+    /* padding: 9.958mm 12.450mm; */
+    padding-top: 9.958mm;
+    font-family: 'URW Gothic';
+}
+
+#person_name
+{
+    display: block;
+    font-size: 28pt;
+    line-height: 28pt;
+    text-decoration: none;
+    color: #eeeeee;
+}
+
+#document_name
+{
+    margin-top: 2.126mm;
+    font-size: 14pt;
+    line-height: 14pt;
+}
+
+#actions
+{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    column-gap: 8px;
+    flex-wrap: wrap;
+    font-size: 9.5pt;
+}
+
+.trigger
+{
+    display: flex;
+    flex-direction: row;
+    column-gap: 2px;
+    align-items: center;
+}
+
+.trigger::before
+{
+    width: 20pt;
+    height: 20pt;
+    background-size: 20pt;
+    background-repeat: no-repeat;
+    content: "";
+}
+
+#linkedin::before
+{
+    background-image: url(../images/icons/linkedin_logo.svg);
+}
+
+#linkedin
+{
+    order: 1;
+}
+
+#github::before
+{
+    background-image: url(../images/icons/github_logo.svg);
+}
+
+#github
+{
+    order: 3;
+}
+
+#email::before
+{
+    background-image: url(../images/icons/monkey_envelope.svg);
+}
+
+#email
+{
+    order: 4;
+}
+
+#phone::before
+{
+    background-image: url(../images/icons/receiver.svg);
+}
+
+#phone
+{
+    order: 2;
+}
+
+#photo_canva
+{
+
+}

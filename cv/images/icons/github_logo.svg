@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   aria-hidden="true"
+   focusable="false"
+   data-prefix="fas"
+   data-icon="envelope"
+   class="svg-inline--fa fa-envelope fa-w-16"
+   role="img"
+   viewBox="0 0 24 24"
+   id="svg2"
+   version="1.1"
+   inkscape:version="1.3.2 (1:1.3.2+202311252150+091e20ef0f)"
+   sodipodi:docname="github_logo.svg"
+   width="24"
+   height="24"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <metadata
+     id="metadata10">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1019"
+     id="namedview6"
+     showgrid="false"
+     inkscape:showpageshadow="false"
+     inkscape:zoom="20.68"
+     inkscape:cx="6.1895551"
+     inkscape:cy="7.5918762"
+     inkscape:window-x="0"
+     inkscape:window-y="30"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1" />
+  <image
+     width="20"
+     height="20"
+     preserveAspectRatio="none"
+     xlink:href="data:image/png;base64,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&#10;"
+     id="image1-7"
+     x="2"
+     y="2"
+     inkscape:label="icon_github"
+     style="display:inline;fill:#800080" />
+</svg>
