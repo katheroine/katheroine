@@ -40,8 +40,16 @@ body
     background-color: #153d3f;
 }
 
+#footer
+{
+    display: flex;
+    height: 14.817mm;
+    background-color: #153d3f;
+}
+
 #header,
-#header a
+#header a,
+#footer
 {
    color: #eeeeee;
    text-decoration: none;
@@ -179,4 +187,28 @@ body
     height: 52.388mm;
     border-radius: 50%;
     border: 1mm solid #eeeeee;
+}
+
+#rodo_compliance
+{
+    margin: 3.748mm 4.819mm;
+    font-size: 9pt;
+    font-family: 'Ubuntu';
+}
+
+.main
+{
+    /* opacity: 0.3; */
+}
+
+#avers .main
+{
+    /* background-color: aqua; */
+    height: calc(29.7cm - 50.535mm);
+}
+
+#revers .main
+{
+    /* background-color: orange; */
+    height: calc(29.7cm - 14.817mm);
 }
