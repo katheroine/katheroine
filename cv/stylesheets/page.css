@@ -32,8 +32,10 @@ body
 
 #header
 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     height: 50.535mm;
-    padding: 0 12.450mm;
     background-image: url('../images/avers.background.png');
     background-color: #153d3f;
 }
@@ -48,6 +50,11 @@ body
 #header a:hover
 {
     text-decoration: underline;
+}
+
+#heading
+{
+    padding-left: 12.450mm;
 }
 
 #title
@@ -74,7 +81,7 @@ body
 
 #actions
 {
-    width: 80%;
+    width: 135mm;
     display: flex;
     flex-direction: row;
     column-gap: 3mm;
@@ -148,4 +155,28 @@ body
     width: 5.292mm;
     height: 5.271mm;
     background-size: 5.292mm;
+}
+
+#photo
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60.854mm;
+    height: 60.854mm;
+    margin-top: 2.420mm;
+    margin-right: 2.875mm;
+    background-color: #153d3f;
+    border-radius: 50%;
+    background-image: url('../images/avers.background.png');
+    background-position: top -2.420mm right -2.875mm;
+}
+
+#photo img
+{
+    display: block;
+    width: 52.388mm;
+    height: 52.388mm;
+    border-radius: 50%;
+    border: 1mm solid #eeeeee;
 }
