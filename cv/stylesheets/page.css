@@ -199,6 +199,7 @@ body
 .main
 {
     /* opacity: 0.3; */
+    padding: 0 11.778mm;
 }
 
 #avers .main
@@ -211,4 +212,11 @@ body
 {
     /* background-color: orange; */
     height: calc(29.7cm - 14.817mm);
+}
+
+#overview
+{
+    margin-top: 6.802mm;
+    font-size: 11pt;
+    color: #4d4d4d;
 }
