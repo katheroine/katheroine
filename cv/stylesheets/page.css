@@ -200,6 +200,7 @@ body
 {
     /* opacity: 0.3; */
     padding: 0 11.778mm;
+    color: #4d4d4d;
 }
 
 #avers .main
@@ -214,9 +215,19 @@ body
     height: calc(29.7cm - 14.817mm);
 }
 
+#overview,
+.section
+{
+    margin: 6.802mm 0;
+}
+
 #overview
 {
-    margin-top: 6.802mm;
     font-size: 11pt;
-    color: #4d4d4d;
+}
+
+.section
+{
+    /* opacity: 0.3; */
+    /* background-color: cornflowerblue; */
 }
