@@ -228,8 +228,9 @@ body
 
 .timeline
 {
-    margin-left: 2.5mm;
-    border-left: #ff7f2a 0.7mm dashed;
+    /* 24 / 2 - 2 * 2 */
+    margin-left: 10px;
+    border-left: #ff7f2a 2px dashed;
 }
 
 .section
@@ -259,9 +260,9 @@ body
 
 .section h3::before
 {
-    width: 6.350mm;
-    height: 6.350mm;
-    border-radius: 0.8mm;
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
     background-color: #004b3e;
     background-repeat: no-repeat;
     content: "";
@@ -269,25 +270,30 @@ body
 
 #experience h3::before
 {
-    /* width: 4.498mm; */
-    /* height: 4.048mm; */
-    background-size: 4.233mm;
+    background-size: 16px;
     background-image: url(../images/icons/suitcase.svg);
     background-position: center;
 }
 
-.timeslot
+li.timeslot
 {
     list-style-position: outside;
-    list-style-image: url(../images/quatrefoil.svg);
-    margin-top: 4mm;
-    margin-left: 3.2mm;
+    /* list-style-image: url(../images/icons/quatrefoil.svg); */
+    margin-top: 14px;
+    margin-left: 7px;
+    padding-left: 10px;
+}
+
+li.timeslot::marker
+{
+    content: url(../images/icons/quatrefoil.svg);
+    size: 12px;
 }
 
 .timeslot h4
 {
-    /* display: inline; */
     font-family: 'URW Gothic';
+    font-size: 16px;
     font-weight: normal;
 }
 
