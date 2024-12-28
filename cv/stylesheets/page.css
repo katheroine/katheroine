@@ -1,3 +1,18 @@
+:root
+{
+    --page-width: 21cm;
+    --page-height: 29.7cm;
+
+    --header-height: 50.535mm;
+    --footer-height: 14.817mm;
+
+    --primary-color: #ffffff;
+    --secondary-color: #153d3f;
+    --terriary-color: #ff7f2a;
+
+    --main-text-color: #4d4d4d;
+}
+
 *
 {
   margin: 0;
@@ -6,18 +21,18 @@
 
 body
 {
-    background: #999999;
+    background: #000000;
     margin: 0 auto;
     font-family: 'Sans';
 }
 
 .page
 {
-    background: white;
+    background: var(--primary-color);
     display: block;
     margin: 0 auto;
-    width: 21cm;
-    height: 29.7cm;
+    width: var(--page-width);
+    height: var(--page-height);
 }
 
 #avers
@@ -35,16 +50,16 @@ body
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 50.535mm;
+    height: var(--header-height);
     background-image: url('../images/avers.background.png');
-    background-color: #153d3f;
+    background-color: var(--secondary-color);
 }
 
 #footer
 {
     display: flex;
-    height: 14.817mm;
-    background-color: #153d3f;
+    height: var(--footer-height);
+    background-color: var(--secondary-color);
 }
 
 #header,
@@ -218,7 +233,7 @@ body
 #overview,
 .section
 {
-    margin: 6.802mm 0;
+    margin: 22px 0;
 }
 
 #overview
@@ -230,7 +245,7 @@ body
 {
     /* 24 / 2 - 2 * 2 */
     margin-left: 10px;
-    border-left: #ff7f2a 2px dashed;
+    border-left: var(--terriary-color) 2px dotted;
 }
 
 .section
@@ -250,7 +265,6 @@ body
     flex-direction: row;
     column-gap: 8px;
     align-items: center;
-    margin: 6.802mm 0;
     font-size: 16px;
     text-transform: uppercase;
     color: #008080;
@@ -316,6 +330,6 @@ li.timeslot::marker
     list-style-position: inside;
     list-style-image: none;
     list-style-type: '✤ ';
-    line-height: 18pt;
-    font-size: 10pt;
+    line-height: 24px;
+    font-size: 13.3px;
 }
