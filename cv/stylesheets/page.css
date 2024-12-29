@@ -3,32 +3,44 @@
     --page-width: 21cm;
     --page-height: 29.7cm;
 
+    --general-vertical-distance: 44px;
+
+    --content-horizontal-distance: 22px;
+
     --header-height: 50.535mm;
     --footer-height: 14.817mm;
 
-    --primary-color: #ffffff;
-    --secondary-color: #153d3f;
+    --primary-color: #153d3f;
+    --secondary-color: #fefefe;
     --terriary-color: #ff7f2a;
 
+    --workspace-background-color: #000000;
+    --baner-background-color: var(--primary-color);
+    --main-background-color: var(--secondary-color);
+    --baner-text-color: var(--secondary-color);
     --main-text-color: #4d4d4d;
+
+    --icon-size: 24px;
+
+    --timeline-axis-thickness: 2px;
 }
 
 *
 {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 body
 {
-    background: #000000;
+    background: var(--workspace-background-color);
     margin: 0 auto;
     font-family: 'Sans';
 }
 
 .page
 {
-    background: var(--primary-color);
+    background: var(--main-background-color);
     display: block;
     margin: 0 auto;
     width: var(--page-width);
@@ -52,21 +64,23 @@ body
     justify-content: space-between;
     height: var(--header-height);
     background-image: url('../images/avers.background.png');
-    background-color: var(--secondary-color);
+    background-color: var(--baner-background-color);
 }
 
 #footer
 {
     display: flex;
     height: var(--footer-height);
-    background-color: var(--secondary-color);
+    background-image: url('../images/revers.background.png');
+    background-position: bottom;
+    background-color: var(--baner-background-color);
 }
 
 #header,
 #header a,
 #footer
 {
-   color: #eeeeee;
+   color: var(--baner-text-color);
    text-decoration: none;
 }
 
@@ -77,12 +91,13 @@ body
 
 #heading
 {
-    padding-left: 12.450mm;
+    /* padding-left: 47px; */
+    padding-left: var(--general-vertical-distance);
 }
 
 #title
 {
-    padding-top: 9.958mm;
+    padding-top: 37.6px;
     font-family: 'URW Gothic';
 }
 
@@ -92,34 +107,33 @@ body
     font-size: 28pt;
     line-height: 28pt;
     text-decoration: none;
-    color: #eeeeee;
 }
 
 #document_name
 {
-    margin-top: 2.126mm;
-    font-size: 14pt;
-    line-height: 14pt;
+    margin-top: 8px;
+    font-size: 18.5px;
+    line-height: 18.5px;
 }
 
 #actions
 {
-    width: 135mm;
+    width: 510px;
     display: flex;
     flex-direction: row;
-    column-gap: 3mm;
+    column-gap: 11px;
     flex-wrap: wrap;
-    margin-top: 1mm;
-    font-size: 9.5pt;
+    margin-top: 3.7px;
+    font-size: 12.5px;
 }
 
 .trigger
 {
     display: flex;
     flex-direction: row;
-    column-gap: 1mm;
+    column-gap: 3.7px;
     align-items: center;
-    margin: 1.8mm 0;
+    margin: 6.8px 0;
 }
 
 .trigger::before
@@ -185,67 +199,66 @@ body
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 60.854mm;
-    height: 60.854mm;
-    margin-top: 2.420mm;
-    margin-right: 2.875mm;
-    background-color: #153d3f;
+    width: 230px;
+    height: 230px;
+    margin-top: 8px;
+    margin-right: 10px;
+    background-color: var(--baner-background-color);
     border-radius: 50%;
     background-image: url('../images/avers.background.png');
-    background-position: top -2.420mm right -2.875mm;
+    background-position: top -8px right -10px;
 }
 
 #photo img
 {
     display: block;
-    width: 52.388mm;
-    height: 52.388mm;
+    width: 198px;
+    height: 198px;
     border-radius: 50%;
-    border: 1mm solid #eeeeee;
+    border: 3px solid var(--secondary-color);
 }
 
 #rodo_compliance
 {
-    margin: 3.748mm 4.819mm;
-    font-size: 9pt;
+    margin: 14.2px 18.2px;
+    font-size: 12px;
     font-family: 'Ubuntu';
 }
 
 .main
 {
     /* opacity: 0.3; */
-    padding: 0 11.778mm;
+    padding: 0 var(--general-vertical-distance);
     color: #4d4d4d;
 }
 
 #avers .main
 {
     /* background-color: aqua; */
-    height: calc(29.7cm - 50.535mm);
+    height: calc(var(--page-height) - var(--header-height));
 }
 
 #revers .main
 {
     /* background-color: orange; */
-    height: calc(29.7cm - 14.817mm);
+    height: calc(var(--page-height) - var(--footer-height));
 }
 
 #overview,
 .section
 {
-    margin: 22px 0;
+    margin: var(--content-horizontal-distance) 0;
 }
 
 #overview
 {
-    font-size: 11pt;
+    font-size: 14.6px;
 }
 
 .timeline
 {
-    /* 24 / 2 - 2 * 2 */
-    margin-left: 10px;
-    border-left: var(--terriary-color) 2px dotted;
+    margin-left: calc(var(--icon-size) / 2 - var(--timeline-axis-thickness));
+    border-left: var(--terriary-color) var(--timeline-axis-thickness) dotted;
 }
 
 .section
@@ -273,8 +286,8 @@ body
 .section h3::before
 {
     margin-bottom: 4px;
-    width: 24px;
-    height: 24px;
+    width: var(--icon-size);
+    height: var(--icon-size);
     border-radius: 4px;
     background-color: #004b3e;
     background-repeat: no-repeat;
