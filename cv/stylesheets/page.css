@@ -346,3 +346,38 @@ li.timeslot::marker
     line-height: 24px;
     font-size: 13.3px;
 }
+
+.timeslot ul.responsibilities
+{
+    list-style-position: inside;
+    list-style-image: none;
+    list-style-type: '✤ ';
+    line-height: 24px;
+    font-size: 13.3px;
+}
+
+.timeslot .responsibilities .skill
+{
+    font-weight: bold;
+}
+
+.timeslot .responsibilities .skill::before,
+.timeslot .responsibilities .skill::after
+{
+    font-weight: normal;
+}
+
+.timeslot .responsibilities .skill::after
+{
+    content: ",";
+}
+
+.timeslot .responsibilities .skill:first-of-type::before
+{
+    content: "(";
+}
+
+.timeslot .responsibilities .skill:last-of-type::after
+{
+    content: ")";
+}
