@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   aria-hidden="true"
+   focusable="false"
+   data-prefix="fas"
+   data-icon="envelope"
+   class="svg-inline--fa fa-envelope fa-w-16"
+   role="img"
+   viewBox="0 0 18 12"
+   id="svg2"
+   version="1.1"
+   inkscape:version="1.3.2 (1:1.3.2+202311252150+091e20ef0f)"
+   sodipodi:docname="student_hat.svg"
+   width="18"
+   height="12"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <metadata
+     id="metadata10">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1019"
+     id="namedview6"
+     showgrid="false"
+     inkscape:showpageshadow="false"
+     inkscape:zoom="20.68"
+     inkscape:cx="-0.2901354"
+     inkscape:cy="-6.4796905"
+     inkscape:window-x="0"
+     inkscape:window-y="30"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1" />
+  <path
+     id="path4-9"
+     style="fill:#ffffff;stroke-width:1.01373"
+     d="M 8.9967984,0 C 8.716027,0 8.4346351,0.0346561 8.1612268,0.10456096 L 0.57416,2.8108655 c -0.76554667,0.1984589 -0.76554667,1.2223627 0,1.4208114 1.0828271,0.3009751 1.6344735,0.5868252 2.9044241,0.9800099 0.097926,0.030314 0.2404571,0.075273 0.3613803,0.1127615 v 2.6837518 c 0,0.5815437 0.5780914,1.0497185 1.2963791,1.0497185 h 7.6692845 c 0.718288,0 1.296379,-0.4681748 1.296379,-1.0497185 V 5.3736538 C 14.88481,5.1235247 15.377404,4.9123557 16.149827,4.7216807 V 7.20451 c -0.294446,0.1894318 -0.504785,0.5195566 -0.504785,0.9164539 0,0.3788625 0.193135,0.6938147 0.466543,0.8877492 L 15.371617,11.368528 C 15.300107,11.679738 15.459587,12 15.690932,12 h 1.927359 c 0.231378,0 0.390779,-0.320262 0.319314,-0.631472 L 17.197637,9.0087131 C 17.471055,8.8147786 17.66418,8.4998264 17.66418,8.1209639 17.66418,7.7240666 17.45384,7.3939418 17.159396,7.20451 V 4.4141468 l 0.269601,-0.1824711 c 0.761337,-0.3358242 0.761337,-1.2264624 0,-1.424911 L 9.8323701,0.10456176 C 9.5589575,0.03465577 9.2775699,4.5e-7 8.9967984,0 Z"
+     inkscape:label="icon_education_student_hat" />
+</svg>

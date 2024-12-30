@@ -227,6 +227,7 @@ body
 
 .main
 {
+    overflow: auto;
     /* opacity: 0.3; */
     padding: 0 var(--general-vertical-distance);
     color: #4d4d4d;
@@ -244,10 +245,21 @@ body
     height: calc(var(--page-height) - var(--footer-height));
 }
 
+.section
+{
+    /* opacity: 0.3; */
+    /* background-color: cornflowerblue; */
+}
+
 #overview,
 .section
 {
     margin: var(--content-horizontal-distance) 0;
+}
+
+.section#education
+{
+    margin-top: 38px;
 }
 
 #overview
@@ -259,12 +271,6 @@ body
 {
     margin-left: calc(var(--icon-size) / 2 - var(--timeline-axis-thickness));
     border-left: var(--terriary-color) var(--timeline-axis-thickness) dotted;
-}
-
-.section
-{
-    /* opacity: 0.3; */
-    /* background-color: cornflowerblue; */
 }
 
 .section h3
@@ -294,10 +300,16 @@ body
     content: "";
 }
 
-#experience h3::before
+.section#experience h3::before
 {
-    background-image: url(../images/icons/suitcase.svg);
     background-position: center;
+    background-image: url(../images/icons/suitcase.svg);
+}
+
+.section#education h3::before
+{
+    background-position: center 7px;
+    background-image: url(../images/icons/student_hat.svg);
 }
 
 li.timeslot
@@ -327,13 +339,30 @@ li.timeslot::marker
     font-weight: bold;
 }
 
-.timeslot h4 .position
+.timeslot h4 .position,
+.timeslot h4 .subject
 {
     font-weight: bold;
     color: #008080;
 }
 
-.timeslot h4 .workplace
+.timeslot h4 .workplace,
+.timeslot h4 .academy
+{
+    font-weight: bold;
+}
+
+.timeslot .responsibilities,
+.timeslot .faculty,
+.timeslot .specialisation,
+.timeslot .degree
+{
+    line-height: 24px;
+    font-size: 13.3px;
+}
+
+.timeslot .specialisation > *,
+.timeslot .degree
 {
     font-weight: bold;
 }
@@ -343,8 +372,6 @@ li.timeslot::marker
     list-style-position: inside;
     list-style-image: none;
     list-style-type: '✤ ';
-    line-height: 24px;
-    font-size: 13.3px;
 }
 
 .timeslot ul.responsibilities
