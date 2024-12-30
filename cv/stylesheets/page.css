@@ -227,7 +227,6 @@ body
 
 .main
 {
-    overflow: auto;
     /* opacity: 0.3; */
     padding: 0 var(--general-vertical-distance);
     color: #4d4d4d;
@@ -259,7 +258,7 @@ body
 
 .section#education
 {
-    margin-top: 38px;
+    padding-top: 38px;
 }
 
 #overview
