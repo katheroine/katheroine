@@ -274,15 +274,12 @@ body
 
 .section h3
 {
-    font-family: 'URW Gothic';
-}
-
-.section h3
-{
     display: flex;
     flex-direction: row;
     column-gap: 8px;
     align-items: center;
+    margin: var(--content-horizontal-distance) 0;
+    font-family: 'URW Gothic';
     font-size: 16px;
     text-transform: uppercase;
     color: #008080;
@@ -309,6 +306,12 @@ body
 {
     background-position: center 7px;
     background-image: url(../images/icons/student_hat.svg);
+}
+
+.section#skillset h3::before
+{
+    background-position: center;
+    background-image: url(../images/icons/spanner.svg);
 }
 
 li.timeslot
@@ -406,4 +409,40 @@ li.timeslot::marker
 .timeslot .responsibilities .skill:last-of-type::after
 {
     content: ")";
+}
+
+#skillboard
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#skillboard > div
+{
+    flex-basis: 46%;
+    /* background-color: cornflowerblue; */
+}
+
+#skillboard h4
+{
+    font-family: 'URW Gothic';
+    font-size: 16px;
+    font-weight: bold;
+    color: #008080;
+}
+
+#skillboard ul
+{
+    margin: 6px 0 12px 0;
+    list-style: none;
+    line-height: 24px;
+    font-size: 14px;
+}
+
+#skillboard li
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
