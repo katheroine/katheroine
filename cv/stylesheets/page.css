@@ -18,7 +18,8 @@
     --baner-background-color: var(--primary-color);
     --main-background-color: var(--secondary-color);
     --baner-text-color: var(--secondary-color);
-    --main-text-color: #4d4d4d;
+    --main-normal-text-color: #4d4d4d;
+    --main-featured-text-color: #008080;
 
     --icon-size: 24px;
 
@@ -229,7 +230,7 @@ body
 {
     /* opacity: 0.3; */
     padding: 0 var(--general-vertical-distance);
-    color: #4d4d4d;
+    color: var(--main-normal-text-color);
 }
 
 #avers .main
@@ -282,7 +283,7 @@ body
     font-family: 'URW Gothic';
     font-size: 16px;
     text-transform: uppercase;
-    color: #008080;
+    color: var(--main-featured-text-color);
 }
 
 .section h3::before
@@ -291,7 +292,8 @@ body
     width: var(--icon-size);
     height: var(--icon-size);
     border-radius: 4px;
-    background-color: #004b3e;
+    /* background-color: #004b3e; */
+    background-color: var(--main-featured-text-color);
     background-repeat: no-repeat;
     content: "";
 }
@@ -345,7 +347,7 @@ li.timeslot::marker
 .timeslot h4 .subject
 {
     font-weight: bold;
-    color: #008080;
+    color: var(--main-featured-text-color);
 }
 
 .timeslot h4 .workplace,
@@ -429,7 +431,7 @@ li.timeslot::marker
     font-family: 'URW Gothic';
     font-size: 16px;
     font-weight: bold;
-    color: #008080;
+    color: var(--main-featured-text-color);
 }
 
 #skillboard ul
@@ -445,6 +447,30 @@ li.timeslot::marker
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+#skillboard .skill a.name
+{
+    color: var(--main-normal-text-color);
+    text-decoration: none;
+}
+
+#skillboard .skill a.name::after
+{
+    content: " ➜";
+    font-size: 16px;
+    color: #999999;
+}
+
+#skillboard .skill a.name:hover
+{
+    text-decoration: underline;
+}
+
+#skillboard .skill a.name:hover::after
+{
+    color: var(--main-featured-text-color);
+    text-decoration: none;
 }
 
 #skillboard .active
