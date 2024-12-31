@@ -63,6 +63,8 @@ body
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    column-gap: 0;
+    padding: 0 var(--general-vertical-distance);
     height: var(--header-height);
     background-image: url('../images/avers.background.png');
     background-color: var(--baner-background-color);
@@ -88,11 +90,6 @@ body
 #header a:hover
 {
     text-decoration: underline;
-}
-
-#heading
-{
-    padding-left: var(--general-vertical-distance);
 }
 
 #title
@@ -122,9 +119,8 @@ body
     flex-direction: row;
     column-gap: 11px;
     flex-wrap: wrap;
-    width: 510px;
     margin-top: 3.7px;
-    font-size: 12.5px;
+    font-size: 11.5px;
 }
 
 .trigger
@@ -146,19 +142,9 @@ body
     content: "";
 }
 
-#linkedin
-{
-    order: 1;
-}
-
 #linkedin::before
 {
     background-image: url(../images/icons/linkedin_logo.svg);
-}
-
-#github
-{
-    order: 3;
 }
 
 #github::before
@@ -166,19 +152,9 @@ body
     background-image: url(../images/icons/github_logo.svg);
 }
 
-#email
-{
-    order: 4;
-}
-
 #email::before
 {
     background-image: url(../images/icons/monkey_envelope.svg);
-}
-
-#phone
-{
-    order: 2;
 }
 
 #phone::before
@@ -191,14 +167,15 @@ body
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-shrink: 0;
     width: 230px;
     height: 230px;
     margin-top: 8px;
-    margin-right: 10px;
+    margin-right: -16px;
     background-color: var(--baner-background-color);
     border-radius: 50%;
     background-image: url('../images/avers.background.png');
-    background-position: top -8px right -10px;
+    background-position: top -8px right -28px;
 }
 
 #photo img
@@ -403,7 +380,6 @@ li.timeslot::marker
 #skillboard > div
 {
     flex-basis: 46%;
-    /* background-color: cornflowerblue; */
 }
 
 #skillboard h4
