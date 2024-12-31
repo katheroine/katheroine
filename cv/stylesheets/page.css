@@ -131,14 +131,18 @@ body
 {
     display: flex;
     flex-direction: row;
-    column-gap: 3.7px;
+    column-gap: 4px;
     align-items: center;
     margin: 6.8px 0;
 }
 
 .trigger::before
 {
+    width: var(--icon-size);
+    height: var(--icon-size);
     background-repeat: no-repeat;
+    background-size: 22px;
+    background-position: center;
     content: "";
 }
 
@@ -150,9 +154,6 @@ body
 #linkedin::before
 {
     background-image: url(../images/icons/linkedin_logo.svg);
-    width: 20px;
-    height: 20px;
-    background-size: 20px;
 }
 
 #github
@@ -163,9 +164,6 @@ body
 #github::before
 {
     background-image: url(../images/icons/github_logo.svg);
-    width: 20px;
-    height: 20px;
-    background-size: 20px;
 }
 
 #email
@@ -176,9 +174,6 @@ body
 #email::before
 {
     background-image: url(../images/icons/monkey_envelope.svg);
-    width: 22px;
-    height: 16.5px;
-    background-size: 22px;
 }
 
 #phone
@@ -189,9 +184,6 @@ body
 #phone::before
 {
     background-image: url(../images/icons/receiver.svg);
-    width: 20px;
-    height: 19.9px;
-    background-size: 20px;
 }
 
 #photo
