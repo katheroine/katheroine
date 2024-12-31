@@ -258,7 +258,7 @@ body
 
 .section#education
 {
-    padding-top: 38px;
+    padding-top: 20px;
 }
 
 #overview
@@ -359,7 +359,7 @@ li.timeslot::marker
 .timeslot .specialisation,
 .timeslot .degree
 {
-    line-height: 24px;
+    line-height: 18px;
     font-size: 13.3px;
 }
 
@@ -436,7 +436,7 @@ li.timeslot::marker
 {
     margin: 6px 0 12px 0;
     list-style: none;
-    line-height: 24px;
+    line-height: 18px;
     font-size: 14px;
 }
 
@@ -445,4 +445,14 @@ li.timeslot::marker
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+#skillboard .active
+{
+    color: #111111;
+}
+
+#skillboard .unactive
+{
+    color: #bbbbbb;
 }
