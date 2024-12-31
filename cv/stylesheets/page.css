@@ -92,7 +92,6 @@ body
 
 #heading
 {
-    /* padding-left: 47px; */
     padding-left: var(--general-vertical-distance);
 }
 
@@ -119,11 +118,11 @@ body
 
 #actions
 {
-    width: 510px;
     display: flex;
     flex-direction: row;
     column-gap: 11px;
     flex-wrap: wrap;
+    width: 510px;
     margin-top: 3.7px;
     font-size: 12.5px;
 }
@@ -228,27 +227,18 @@ body
 
 .main
 {
-    /* opacity: 0.3; */
     padding: 0 var(--general-vertical-distance);
     color: var(--main-normal-text-color);
 }
 
 #avers .main
 {
-    /* background-color: aqua; */
     height: calc(var(--page-height) - var(--header-height));
 }
 
 #revers .main
 {
-    /* background-color: orange; */
     height: calc(var(--page-height) - var(--footer-height));
-}
-
-.section
-{
-    /* opacity: 0.3; */
-    /* background-color: cornflowerblue; */
 }
 
 #overview,
@@ -279,6 +269,7 @@ body
     flex-direction: row;
     column-gap: 8px;
     align-items: center;
+    height: var(--icon-size);
     margin: var(--content-horizontal-distance) 0;
     font-family: 'URW Gothic';
     font-size: 16px;
@@ -288,11 +279,10 @@ body
 
 .section h3::before
 {
-    margin-bottom: 4px;
+    margin-bottom: 5px;
     width: var(--icon-size);
     height: var(--icon-size);
     border-radius: 4px;
-    /* background-color: #004b3e; */
     background-color: var(--main-featured-text-color);
     background-repeat: no-repeat;
     content: "";
@@ -318,8 +308,6 @@ body
 
 li.timeslot
 {
-    list-style-position: outside;
-    /* list-style-image: url(../images/icons/quatrefoil.svg); */
     margin-top: 14px;
     margin-left: 7px;
     padding-left: 20px;
