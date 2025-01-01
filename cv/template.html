@@ -87,42 +87,29 @@
             <section id="skillset" class="section">
                 <h3>Skills</h3>
                 <div id="skillboard">
+                    {% for skillset in skillsets %}
                     <div>
+                        {% for skill_group in skillset %}
                         <section class="skillset_group">
-                            <h4>Some topic</h4>
+                            <h4>{{ skill_group.name }}</h4>
                             <ul>
+                                {% for skill in skill_group.skills %}
                                 <li class="skill">
-                                    <a class="name" href="">Some skill</a>
+                                    {% if skill.link %}
+                                    <a class="name" href="{{ skill.link }}">{{ skill.name }}</a>
+                                    {% else %}
+                                    <span class="name">{{ skill.name }}</span>
+                                    {% endif %}
                                     <span class="level">
-                                        <span class="active">✤✤✤</span><span class="unactive">✤✤</span>
+                                        <span class="active">{% for i in range(skill.level) %}✤{% endfor %}</span><span class="unactive">{% for i in range(5 - skill.level) %}✤{% endfor %}</span>
                                     </span>
                                 </li>
-                                <li class="skill">
-                                    <span class="name">Some skill</span>
-                                    <span class="level">
-                                        <span class="active">✤✤✤</span><span class="unactive">✤✤</span>
-                                    </span>
-                                </li>
-                                <li class="skill">
-                                    <span class="name">Some skill</span>
-                                    <span class="level">
-                                        <span class="active">✤✤✤</span><span class="unactive">✤✤</span>
-                                    </span>
-                                </li>
-                                <li class="skill">
-                                    <a class="name" href="">Some skill</a>
-                                    <span class="level">
-                                        <span class="active">✤✤✤</span><span class="unactive">✤✤</span>
-                                    </span>
-                                </li>
+                                {% endfor %}
                             </ul>
                         </section>
-                    </div>
-                    <div>
-                        {% for skill in skills %}
-                        <p>{{ skill }}</p>
                         {% endfor %}
                     </div>
+                    {% endfor %}
                 </div>
             </section>
         </section>

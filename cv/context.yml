@@ -62,14 +62,65 @@ educations:
     faculty: Other Faculty
     degree: Other degree
 
-skills:
-  - C++
-  - Python
-  - PHP
-  - SQL
-  - MongoDB
-  - Docker
-  - Linux
+skillsets:
+  # primary
+  -
+    -
+      name: Some group
+      skills:
+        -
+          name: Some skill
+          link: http://github.com
+          level: 2
+        -
+          name: Other skill
+          link: http://github.com
+          level: 3
+        -
+          name: Another skill
+          link: http://github.com
+          level: 5
+    -
+      name: Other group
+      skills:
+        -
+          name: Some skill
+          link: http://github.com
+          level: 4
+        -
+          name: Other skill
+          link: http://github.com
+          level: 1
+    -
+      name: Another group
+      skills:
+        -
+          name: Some skill
+          level: 4
+        -
+          name: Other skill
+          link: http://github.com
+          level: 3
+        -
+          name: Another skill
+          level: 5
+  # secondary
+  -
+    -
+      name: Some group
+      skills:
+        -
+          name: Some skill
+          link: http://github.com
+          level: 4
+        -
+          name: Other skill
+          link: http://github.com
+          level: 1
+        -
+          name: Another skill
+          link: http://github.com
+          level: 5
 
 rodo: "I hereby give consent for my personal data included in my application to be processed for the purposes of the recruitment process<br>
   under the Personal Data Protection Act as of 29 August 1997, consolidated text: Journal of Laws 2016, item 922 as amended."
