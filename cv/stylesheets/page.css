@@ -322,6 +322,18 @@ li.timeslot::marker
     font-size: 13.3px;
 }
 
+#experience .timeslot > ul.skills
+{
+    line-height: 24px;
+    font-size: 13.3px;
+}
+
+#experience .timeslot > ul.skills > li
+{
+    list-style-type: none;
+    display: inline;
+}
+
 .timeslot .specialisation > *,
 .timeslot .degree
 {
@@ -344,17 +356,20 @@ li.timeslot::marker
     font-size: 13.3px;
 }
 
+#experience .timeslot > ul.skills > li,
 .timeslot .responsibilities .skill
 {
     font-weight: bold;
 }
 
+#experience .timeslot > ul.skills > li::after,
 .timeslot .responsibilities .skill::before,
 .timeslot .responsibilities .skill::after
 {
     font-weight: normal;
 }
 
+#experience .timeslot > ul.skills > li::after,
 .timeslot .responsibilities .skill::after
 {
     content: ",";
@@ -363,6 +378,11 @@ li.timeslot::marker
 .timeslot .responsibilities .skill:first-of-type::before
 {
     content: "(";
+}
+
+#experience .timeslot > ul.skills > li:last-of-type:after
+{
+    content: ""
 }
 
 .timeslot .responsibilities .skill:last-of-type::after
