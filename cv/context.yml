@@ -1,4 +1,53 @@
 name: Katarzyna Mądrala
+
+triggers:
+  linkedin: https://linkedin.com/in/katarzyna-krasińska
+  github: https://github.com/katheroine
+  email: katarzyna.krasinska@somedomain.com
+  phone: +48 000 000 000
+
+overview: "I'm a software developer with experience in <b>web applications</b><br>
+  focused on <b>good code design</b> and <b>high product quality</b>.<br>
+  I'm looking for a company where I can provide the reliable and <b>well tested</b> solutions,<br>
+  use my <b>various technical skills</b> and cooperate with open-minded people."
+
+experiences:
+  -
+    time: '00.0000 - 00.0000'
+    position: Some position
+    workplace: Some Organisation
+    responsibilities:
+      -
+        description: Some responsibility A
+        skills:
+          - SkillA
+          - SkillB
+          - SkillC
+      -
+        description: Some responsibility B
+        skills:
+          - SkillB
+          - SkillC
+      -
+        description: Some responsibility C
+  -
+    time: '00.0000 - 00.0000'
+    position: Other position
+    workplace: Other Organisation
+    responsibilities:
+      -
+        description: Some responsibility A
+      -
+        description: Some responsibility B
+        skills:
+          - SkillB
+          - SkillC
+  -
+    time: '00.0000 - 00.0000'
+    position: Another position
+    workplace: Another Organisation
+
+
 skills:
   - C++
   - Python
@@ -7,3 +56,6 @@ skills:
   - MongoDB
   - Docker
   - Linux
+
+rodo: "I hereby give consent for my personal data included in my application to be processed for the purposes of the recruitment process<br>
+  under the Personal Data Protection Act as of 29 August 1997, consolidated text: Journal of Laws 2016, item 922 as amended."
