@@ -47,6 +47,20 @@ experiences:
     position: Another position
     workplace: Another Organisation
 
+educations:
+  -
+    time: '0000 - 0000'
+    subject: Some subject
+    academy: Some Academy
+    faculty: Some Faculty
+    specialization: Some specialization
+    degree: Some degree
+  -
+    time: '0000 - 0000'
+    subject: Other subject
+    academy: Other Academy
+    faculty: Other Faculty
+    degree: Other degree
 
 skills:
   - C++

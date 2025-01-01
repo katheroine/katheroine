@@ -68,25 +68,20 @@
             <section id="education" class="section">
                 <h3>Education</h3>
                 <ul class="timeline">
+                    {% for education in educations %}
                     <li class="timeslot">
                         <h4>
-                            <span class="time">0000 - 0000</span>
-                            <span class="subject">Some subject</span>
-                            in <span class="academy">Some Academy</span>
+                            <span class="time">{{ education.time }}</span>
+                            <span class="subject">{{ education.subject }}</span>
+                            in <span class="academy">{{ education.academy }}</span>
                         </h4>
-                        <div class="faculty">Some Faculty</div>
-                        <div class="degree">Some degree</div>
+                        <div class="faculty">{{ education.faculty }}</div>
+                        {% if education.specialization %}
+                        <div class="specialisation">specialization: <span>{{ education.specialization }}</span></div>
+                        {% endif %}
+                        <div class="degree">{{ education.degree }}</div>
                     </li>
-                    <li class="timeslot">
-                        <h4>
-                            <span class="time">0000 - 0000</span>
-                            <span class="subject">Some subject</span>
-                            in <span class="academy">Some Academy</span>
-                        </h4>
-                        <div class="faculty">Some Faculty</div>
-                        <div class="specialisation">specialization: <span>Some specialisation</span></div>
-                        <div class="degree">Some degree</div>
-                    </li>
+                    {% endfor %}
                 </ul>
             </section>
             <section id="skillset" class="section">
