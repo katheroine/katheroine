@@ -46,6 +46,19 @@ experiences:
     time: '00.0000 - 00.0000'
     position: Another position
     workplace: Another Organisation
+    responsibilities:
+      -
+        description: Some responsibility A
+      -
+        description: Some responsibility B
+      -
+        description: Some responsibility C
+    skills:
+      - SkillA
+      - SkillB
+      - SkillC
+      - SkillD
+      - SkillE
 
 educations:
   -

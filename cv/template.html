@@ -57,6 +57,11 @@
                             </li>
                             {% endfor %}
                         </ul>
+                        <ul class="skills">
+                            {% for skill in experience.skills%}
+                            <li class="skill">{{ skill }}</li>
+                            {% endfor %}
+                        </ul>
                     </li>
                     {% endfor %}
                 </ul>
@@ -115,8 +120,7 @@
         </section>
         <section id="footer">
             <div id="rodo_compliance">
-                I hereby give consent for my personal data included in my application to be processed for the purposes of the recruitment process<br>
-                under the Personal Data Protection Act as of 29 August 1997, consolidated text: Journal of Laws 2016, item 922 as amended.
+                {{ rodo }}
             </div>
         </section>
     </section>
