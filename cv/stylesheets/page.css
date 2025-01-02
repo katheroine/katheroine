@@ -103,7 +103,12 @@ body
 #footer
 {
    color: var(--baner-text-color);
-   text-decoration: none;
+
+}
+
+#header a
+{
+    text-decoration: none;
 }
 
 #header a:hover
@@ -111,25 +116,32 @@ body
     text-decoration: underline;
 }
 
+#heading
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 36px;
+}
+
 #title
 {
-    padding-top: 37.6px;
     font-family: 'URW Gothic';
 }
 
 #person_name
 {
     display: block;
-    line-height: 37.3px;
-    font-size: 37.3px;
+    line-height: 36px;
+    font-size: 36px;
     text-decoration: none;
 }
 
 #document_name
 {
     margin-top: 8px;
-    font-size: 18.5px;
-    line-height: 18.5px;
+    font-size: 18px;
+    line-height: 18px;
 }
 
 #actions
@@ -138,7 +150,7 @@ body
     flex-direction: row;
     column-gap: 11px;
     flex-wrap: wrap;
-    margin-top: 3.7px;
+    margin: 6px 0;
     font-size: 11.5px;
 }
 
@@ -148,7 +160,7 @@ body
     flex-direction: row;
     column-gap: 4px;
     align-items: center;
-    margin: 6.8px 0;
+    margin: 6px 0;
 }
 
 .trigger::before
@@ -156,7 +168,7 @@ body
     width: var(--icon-size);
     height: var(--icon-size);
     background-repeat: no-repeat;
-    background-size: 22px;
+    background-size: calc(var(--icon-size) - 2px);
     background-position: center;
     content: "";
 }
