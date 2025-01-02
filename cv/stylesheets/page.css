@@ -286,9 +286,9 @@ body
 
 .section h3::before
 {
-    margin-bottom: 5px;
     width: var(--icon-size);
     height: var(--icon-size);
+    margin-bottom: 5px;
     border-radius: var(--icon-area-radius);
     background-color: var(--main-featured-text-color);
     background-repeat: no-repeat;
@@ -338,24 +338,39 @@ li.timeslot::marker
     font-weight: bold;
 }
 
-.timeslot h4 .position,
-.timeslot h4 .subject
+#experience .timeslot h4 .position,
+#education .timeslot h4 .subject
 {
     font-weight: bold;
     color: var(--main-featured-text-color);
 }
 
-.timeslot h4 .workplace,
-.timeslot h4 .academy
+#experience .timeslot h4 .workplace,
+#education .timeslot h4 .academy
 {
     font-weight: bold;
 }
 
-.timeslot .responsibilities,
-.timeslot .faculty,
-.timeslot .specialisation,
-.timeslot .degree
+#experience .timeslot .responsibilities,
+#education .timeslot .faculty,
+#education .timeslot .specialisation,
+#education .timeslot .degree
 {
+    line-height: 18px;
+    font-size: 12px;
+}
+
+#education .timeslot .specialisation > *,
+#education .timeslot .degree
+{
+    font-weight: bold;
+}
+
+#experience .timeslot ul.responsibilities
+{
+    list-style-position: inside;
+    list-style-image: none;
+    list-style-type: '✤ ';
     line-height: 18px;
     font-size: 12px;
 }
@@ -366,75 +381,53 @@ li.timeslot::marker
     font-size: 12px;
 }
 
-#experience .timeslot > ul.skills > li
-{
-    list-style-type: none;
-    display: inline;
-}
-
-.timeslot .specialisation > *,
-.timeslot .degree
-{
-    font-weight: bold;
-}
-
-.timeslot ul.responsibilities
-{
-    list-style-position: inside;
-    list-style-image: none;
-    list-style-type: '✤ ';
-}
-
-.timeslot ul.responsibilities
-{
-    list-style-position: inside;
-    list-style-image: none;
-    list-style-type: '✤ ';
-    line-height: 18px;
-    font-size: 12px;
-}
-
-#experience .timeslot > ul.skills > li,
-.timeslot .responsibilities .skill
-{
-    font-weight: bold;
-}
-
-.timeslot .responsibilities ul.skills
+#experience .timeslot ul.responsibilities ul.skills
 {
     display: inline;
     list-style-type: none;
 }
 
-.timeslot .responsibilities ul.skills li.skill
+#experience .timeslot > ul.skills li.skill
+{
+    list-style-type: none;
+    display: inline;
+}
+
+#experience .timeslot > ul.skills li.skill,
+#experience .timeslot ul.responsibilities ul.skills li.skill
+{
+    font-weight: bold;
+}
+
+#experience .timeslot ul.responsibilities ul.skills li.skill
 {
     display: inline;
 }
 
-#experience .timeslot > ul.skills > li::after,
-.timeslot .responsibilities .skill::before,
-.timeslot .responsibilities .skill::after
+#experience .timeslot > ul.skills li::after,
+#experience .timeslot ul.responsibilities ul.skills li.skill::before,
+#experience .timeslot ul.responsibilities ul.skills li.skill::after
 {
     font-weight: normal;
 }
 
-#experience .timeslot > ul.skills > li::after,
-.timeslot .responsibilities .skill::after
+#experience .timeslot > ul.skills li::after,
+#experience .timeslot ul.responsibilities ul.skills li.skill::after
 {
     content: ",";
 }
 
-.timeslot .responsibilities .skill:first-of-type::before
-{
-    content: "(";
-}
-
-#experience .timeslot > ul.skills > li:last-of-type:after
+#experience .timeslot > ul.skills li.skill:last-of-type:after
 {
     content: ""
 }
 
-.timeslot .responsibilities .skill:last-of-type::after
+#experience .timeslot ul.responsibilities ul.skills li.skill:first-of-type::before
+{
+    content: "(";
+}
+
+#experience .timeslot ul.responsibilities ul.skills li.skill:last-of-type::after
 {
     content: ")";
 }
