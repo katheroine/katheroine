@@ -1,29 +1,48 @@
 :root
 {
-    --page-width: 793.701px;
-    --page-height: 1122.520px;
-
-    --general-vertical-distance: 44px;
-
-    --content-horizontal-distance: 22px;
-
-    --header-height: 191px;
-    --footer-height: 56px;
+    /* general */
 
     --primary-color: #153d3f;
     --secondary-color: #fefefe;
     --terriary-color: #ff7f2a;
 
     --workspace-background-color: #000000;
-    --baner-background-color: var(--primary-color);
-    --main-background-color: var(--secondary-color);
-    --baner-text-color: var(--secondary-color);
-    --main-normal-text-color: #4d4d4d;
-    --main-featured-text-color: #008080;
+
+    --general-vertical-distance: 44px;
 
     --icon-size: 24px;
 
+    /* page */
+
+    --page-width: 793.701px;
+    --page-height: 1122.520px;
+
+    --avers-background-image: url('../images/backgrounds/avers.background.svg');
+    --revers-background-image: url('../images/backgrounds/revers.background.svg');
+
+    /* baners */
+
+    --baner-background-color: var(--primary-color);
+    --baner-text-color: var(--secondary-color);
+
+    --header-height: 192px;
+    --footer-height: 56px;
+
+    /* main */
+
+    --content-horizontal-distance: 22px;
+
     --timeline-axis-thickness: 2px;
+
+    --main-background-color: var(--secondary-color);
+    --main-normal-text-color: #4d4d4d;
+    --main-featured-text-color: #008080;
+
+    --indicator-link-normal-color: #999999;
+    --indicator-link-pointed-color: var(--main-featured-text-color);
+
+    --indicator-skill-active-color: #111111;
+    --indicator-skill-unactive-color: #bbbbbb;
 }
 
 *
@@ -50,12 +69,12 @@ body
 
 #avers
 {
-    background-image: url('../images/avers.background.png');
+    background-image: var(--avers-background-image);
 }
 
 #revers
 {
-    background-image: url('../images/revers.background.png');
+    background-image: var(--revers-background-image);
 }
 
 #header
@@ -66,7 +85,7 @@ body
     column-gap: 0;
     padding: 0 var(--general-vertical-distance);
     height: var(--header-height);
-    background-image: url('../images/avers.background.png');
+    background-image: var(--avers-background-image);
     background-color: var(--baner-background-color);
 }
 
@@ -74,7 +93,7 @@ body
 {
     display: flex;
     height: var(--footer-height);
-    background-image: url('../images/revers.background.png');
+    background-image: var(--revers-background-image);
     background-position: bottom;
     background-color: var(--baner-background-color);
 }
@@ -174,7 +193,7 @@ body
     margin-right: -16px;
     background-color: var(--baner-background-color);
     border-radius: 50%;
-    background-image: url('../images/avers.background.png');
+    background-image: var(--avers-background-image);
     background-position: top -8px right -28px;
 }
 
@@ -446,7 +465,7 @@ li.timeslot::marker
 {
     content: " ➜";
     font-size: 16px;
-    color: #999999;
+    color: var(--indicator-link-normal-color);
 }
 
 #skillboard .skill a.name:hover
@@ -456,16 +475,16 @@ li.timeslot::marker
 
 #skillboard .skill a.name:hover::after
 {
-    color: var(--main-featured-text-color);
+    color: var(--indicator-link-pointed-color);
     text-decoration: none;
 }
 
 #skillboard .active
 {
-    color: #111111;
+    color: var(--indicator-skill-active-color);
 }
 
 #skillboard .unactive
 {
-    color: #bbbbbb;
+    color: var(--indicator-skill-unactive-color);
 }
