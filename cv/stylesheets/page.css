@@ -28,6 +28,11 @@
     --header-height: 192px;
     --footer-height: 56px;
 
+    --photo-area-size: 230px;
+    --photo-size: 198px;
+    --photo-border-thickness: 3px;
+    --photo-border-color: var(--secondary-color);
+
     /* main */
 
     --content-horizontal-distance: 22px;
@@ -199,28 +204,28 @@ body
     align-items: center;
     justify-content: center;
     flex-shrink: 0;
-    width: 230px;
-    height: 230px;
+    width: var(--photo-area-size);
+    height: var(--photo-area-size);
     margin-top: 8px;
-    margin-right: -16px;
+    margin-right: calc((var(--photo-size) - var(--photo-area-size)) / 2);
     background-color: var(--baner-background-color);
     border-radius: 50%;
     background-image: var(--avers-background-image);
-    background-position: top -8px right -28px;
+    background-position: top -8px right calc((var(--photo-area-size) - var(--photo-size)) / 2 - var(--general-vertical-distance));
 }
 
 #photo img
 {
     display: block;
-    width: 198px;
-    height: 198px;
+    width: var(--photo-size);
+    height: var(--photo-size);
     border-radius: 50%;
-    border: 3px solid var(--secondary-color);
+    border: var(--photo-border-thickness) solid var(--photo-border-color);
 }
 
 #rodo_compliance
 {
-    margin: 14.2px 18.2px;
+    margin: 14px 18px;
     font-size: 12px;
     font-family: 'Ubuntu';
 }
