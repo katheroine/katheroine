@@ -11,6 +11,7 @@
     --general-vertical-distance: 44px;
 
     --icon-size: 24px;
+    --icon-area-radius: 4px;
 
     /* page */
 
@@ -287,7 +288,7 @@ body
     margin-bottom: 5px;
     width: var(--icon-size);
     height: var(--icon-size);
-    border-radius: 4px;
+    border-radius: var(--icon-area-radius);
     background-color: var(--main-featured-text-color);
     background-repeat: no-repeat;
     content: "";
