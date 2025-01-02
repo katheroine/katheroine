@@ -29,6 +29,9 @@
     --header-height: 192px;
     --footer-height: 56px;
 
+    --person-name-size: 36px;
+    --document-name-size: 18px;
+
     --photo-area-size: 230px;
     --photo-size: 198px;
     --photo-border-thickness: 3px;
@@ -124,9 +127,6 @@ body
 
 #heading
 {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     padding-top: 36px;
 }
 
@@ -138,16 +138,16 @@ body
 #person_name
 {
     display: block;
-    line-height: 36px;
-    font-size: 36px;
+    line-height: var(--person-name-size);
+    font-size: var(--person-name-size);
     text-decoration: none;
 }
 
 #document_name
 {
     margin-top: 8px;
-    font-size: 18px;
-    line-height: 18px;
+    font-size: var(--document-name-size);
+    line-height: var(--document-name-size);
 }
 
 #actions
@@ -156,7 +156,8 @@ body
     flex-direction: row;
     column-gap: 11px;
     flex-wrap: wrap;
-    margin: 6px 0;
+    margin-top: 16px;
+    line-height: 12px;
     font-size: 11.5px;
 }
 
