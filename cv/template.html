@@ -29,7 +29,7 @@
                 </section>
             </section>
             <section id="photo">
-                <img src="images/photo.jpeg">
+                <img src="images/photo.png">
             </section>
         </section>
         <section class="main">
@@ -39,7 +39,7 @@
             <section id="experience" class="section">
                 <h3>Work experience</h3>
                 <ul class="timeline">
-                    {% for experience in experiences %}
+                    {%- for experience in experiences %}
                     <li class="timeslot">
                         <h4>
                             <span class="time">{{ experience.time }}</span>
@@ -47,23 +47,26 @@
                             in <span class="workplace">{{ experience.workplace }}</span>
                         </h4>
                         <ul class="responsibilities">
-                            {% for responsibility in experience.responsibilities %}
-                            <li>{{ responsibility.description }}
-                                <span class="skills">
-                                    {% for skill in responsibility.skills %}
-                                    <span class="skill">{{ skill }}</span>
-                                    {% endfor %}
-                                </span>
+                            {%- for responsibility in experience.responsibilities %}
+                            <li>
+                                {{ responsibility.description }}
+                                {%- if responsibility.skills %}
+                                <ul class="skills">
+                                    {%- for skill in responsibility.skills %}
+                                    <li class="skill">{{ skill }}</li>
+                                    {%- endfor %}
+                                </ul>
+                                {%- endif %}
                             </li>
-                            {% endfor %}
+                            {%- endfor %}
                         </ul>
                         <ul class="skills">
-                            {% for skill in experience.skills%}
+                            {%- for skill in experience.skills%}
                             <li class="skill">{{ skill }}</li>
-                            {% endfor %}
+                            {%- endfor %}
                         </ul>
                     </li>
-                    {% endfor %}
+                    {%- endfor %}
                 </ul>
             </section>
         </section>
@@ -73,7 +76,7 @@
             <section id="education" class="section">
                 <h3>Education</h3>
                 <ul class="timeline">
-                    {% for education in educations %}
+                    {%- for education in educations %}
                     <li class="timeslot">
                         <h4>
                             <span class="time">{{ education.time }}</span>
@@ -81,40 +84,44 @@
                             in <span class="academy">{{ education.academy }}</span>
                         </h4>
                         <div class="faculty">{{ education.faculty }}</div>
-                        {% if education.specialization %}
+                        {%- if education.specialization %}
                         <div class="specialisation">specialization: <span>{{ education.specialization }}</span></div>
-                        {% endif %}
+                        {%- endif %}
                         <div class="degree">{{ education.degree }}</div>
                     </li>
-                    {% endfor %}
+                    {%- endfor %}
                 </ul>
             </section>
             <section id="skillset" class="section">
                 <h3>Skills</h3>
                 <div id="skillboard">
-                    {% for skillset in skillsets %}
+                    {%- for skillset in skillsets %}
                     <div>
-                        {% for skill_group in skillset %}
+                        {%- for skill_group in skillset %}
                         <section class="skillset_group">
                             <h4>{{ skill_group.name }}</h4>
                             <ul>
-                                {% for skill in skill_group.skills %}
+                                {%- for skill in skill_group.skills %}
                                 <li class="skill">
-                                    {% if skill.link %}
+                                    {%- if skill.link %}
                                     <a class="name" href="{{ skill.link }}">{{ skill.name }}</a>
-                                    {% else %}
+                                    {%- else %}
                                     <span class="name">{{ skill.name }}</span>
-                                    {% endif %}
+                                    {%- endif %}
                                     <span class="level">
-                                        <span class="active">{% for i in range(skill.level) %}✤{% endfor %}</span><span class="unactive">{% for i in range(5 - skill.level) %}✤{% endfor %}</span>
+                                        {%- if skill.level is number %}
+                                        <span class="active">{%- for i in range(skill.level) %}✤{%- endfor %}</span><span class="unactive">{%- for i in range(5 - skill.level) %}✤{%- endfor %}</span>
+                                        {%- else %}
+                                        {{ skill.level }}
+                                        {%- endif %}
                                     </span>
                                 </li>
-                                {% endfor %}
+                                {%- endfor %}
                             </ul>
                         </section>
-                        {% endfor %}
+                        {%- endfor %}
                     </div>
-                    {% endfor %}
+                    {%- endfor %}
                 </div>
             </section>
         </section>

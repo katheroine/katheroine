@@ -223,7 +223,7 @@ body
 
 #overview
 {
-    font-size: 14.6px;
+    font-size: 13px;
 }
 
 .timeline
@@ -319,13 +319,13 @@ li.timeslot::marker
 .timeslot .degree
 {
     line-height: 18px;
-    font-size: 13.3px;
+    font-size: 12px;
 }
 
 #experience .timeslot > ul.skills
 {
     line-height: 24px;
-    font-size: 13.3px;
+    font-size: 12px;
 }
 
 #experience .timeslot > ul.skills > li
@@ -352,14 +352,25 @@ li.timeslot::marker
     list-style-position: inside;
     list-style-image: none;
     list-style-type: '✤ ';
-    line-height: 24px;
-    font-size: 13.3px;
+    line-height: 18px;
+    font-size: 12px;
 }
 
 #experience .timeslot > ul.skills > li,
 .timeslot .responsibilities .skill
 {
     font-weight: bold;
+}
+
+.timeslot .responsibilities ul.skills
+{
+    display: inline;
+    list-style-type: none;
+}
+
+.timeslot .responsibilities ul.skills li.skill
+{
+    display: inline;
 }
 
 #experience .timeslot > ul.skills > li::after,
