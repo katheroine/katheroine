@@ -14,6 +14,8 @@ I'm **Katheroine** and this is **my code**.
 [![CSS](https://img.shields.io/badge/CSS-14315d?style=for-the-badge&logoColor=white&logo=css3)](https://github.com/katheroine)
 [![Pascal/Delphi](https://img.shields.io/badge/Delphi-053d53?style=for-the-badge&logo=delphi)](https://github.com/katheroine/languagium/tree/main/pascal)
 [![C++](https://img.shields.io/badge/C++-053d53?style=for-the-badge&logoColor=white&logo=cplusplus)](https://github.com/katheroine/languagium/tree/main/c++)
+[![C#](https://img.shields.io/badge/C%23-053d53?style=for-the-badge&logoColor=white&logo=csharp)](https://github.com/katheroine/languagium/tree/main/c%23)
+[![Java](https://img.shields.io/badge/Java-053d53?style=for-the-badge&logoColor=white&logo=java)](https://github.com/katheroine/languagium/tree/main/java)
 [![JavaScript](https://img.shields.io/badge/JavaScript-053d53?style=for-the-badge&logoColor=white&logo=javascript)](https://github.com/katheroine/languagium/tree/main/javascript)
 [![Perl](https://img.shields.io/badge/Perl-053d53?style=for-the-badge&logoColor=white&logo=perl)](https://github.com/katheroine/languagium/tree/main/perl)
 [![PHP](https://img.shields.io/badge/PHP-053d53?style=for-the-badge&logoColor=white&logo=php)](https://github.com/katheroine/languagium/tree/main/php)
