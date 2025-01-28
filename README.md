@@ -57,7 +57,7 @@ I'm **Katheroine** and this is **my code**.
 
 ## Labs
 
-* [Languagium](https://github.com/katheroine/languagium/) - the catalogue of the code snippets pictured the various programming problems in nine  **programming languages**
+* [Languagium](https://github.com/katheroine/languagium/) - the catalogue of the code snippets picturing the various programming problems in nine  **programming languages**
 * [Patternalium](https://github.com/katheroine/patternalium/) - the examples of the **design patterns** implementation examples
 * [PHP Lab](https://github.com/katheroine/php.lab) - comprehensive set of **PHP** code snippets, usage examples and standards implementation demos
 * [SQL Lab](https://github.com/katheroine/sql.lab) - **SQL** language and databases basic knowledge & examples
