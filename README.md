@@ -2,7 +2,8 @@
 
 I'm **Katheroine** and this is **my code**.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logoColor=white&logo=linkedin)](http://linkedin.com/in/katarzyna-krasińska)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logoColor=white&logo=linkedin)](https://linkedin.com/in/katarzyna-krasińska)
+[![Substack](https://img.shields.io/badge/Substack-FF6719?style=for-the-badge&logoColor=white&logo=substack)](https://substack.com/@katheroine)
 [![Bluesky](https://img.shields.io/badge/Bluesky-0085FF?style=for-the-badge&logoColor=white&logo=bluesky)](https://katheroine.bsky.social)
 [![Mastodon](https://img.shields.io/badge/Mastodon-563ACC?style=for-the-badge&logoColor=white&logo=mastodon)](https://mastodon.social/@katheroine)
 <!--[![GitHub](https://img.shields.io/badge/GitHub-black?style=for-the-badge&logoColor=white&logo=github)](https://github.com/katheroine)-->
